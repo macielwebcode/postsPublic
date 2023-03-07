@@ -33,7 +33,7 @@ Projeto feito com react, react-router-dom e css, permitindo que o usuário naveg
 - `Funcionalidade 8`: scroll ao mudar de página
 
 ## Deploy da Aplicação
-- ``Link do projeto online:`` 
+- ``Link do projeto online:`` https://posts-public.vercel.app/
 
  
 ## Learn More
