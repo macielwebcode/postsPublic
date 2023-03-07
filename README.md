@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Projeto Lista de Posts
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
+<img src="https://img.shields.io/static/v1?label=Vercel&message=deploy&color=blue&style=for-the-badge&logo=VERCEL"/>
 
-## Available Scripts
+### Status do Projeto: ✔️ (concluido)
 
-In the project directory, you can run:
+## Descrição
+Projeto feito com react, react-router-dom e css, permitindo que o usuário navegue entre as páginas inicio, about e posts. Na página inicial contém cards que é uma lista de posts (conteúdo dos posts está em um json dentro do projeto). O conteúdo da página sobre é estático. A página de posts recebe conteúdo dinâmico e também apresenta uma listagem de posts relacionados. Sempre que uma página não é encontrada ou um post não é encontrado, o usuário é direcionado para a página NotFound.
 
+## Para rodar o projeto
+### `npm install`
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✔️ Técnicas e tecnologias utilizadas
+- ``React``
+- ``React Router``
+- ``React Markdown`` 
+- ``Javascript``
+- ``CSS``
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# :hammer: Funcionalidades do projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- `Funcionalidade 1`: menu com link destacado utilizando useLocation
+- `Funcionalidade 2`: criar e mapear as rotas para as páginas Inicio, About, NotFound
+- `Funcionalidade 3`: componente postModelo para montar e exibir conteúdo da rota /about e da rota /posts
+- `Funcionalidade 4`: listar posts na página inicial utilizando o conteúdo de um arquivo json
+- `Funcionalidade 5`: rotas dinâmicas e descendentes para os posts
+- `Funcionalidade 6`: useNavigate para voltar ao inicio em caso de pagina não encontrada
+- `Funcionalidade 7`: posts recomendados na pagina do post
+- `Funcionalidade 8`: scroll ao mudar de página
 
-### `npm run build`
+## Deploy da Aplicação
+- ``Link do projeto online:`` 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Routers Anotações
+## Na rota "/", a estrutura a ser renderizada é:
+<PaginaDefult>
+<Inicio />
+</PaginaDefult> 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Na rota "/about", a estrutura a ser renderizada é:
+<PaginaDefult>
+    <Sobre />
+</PaginaDefult> 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
