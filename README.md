@@ -1,7 +1,7 @@
 ## Projeto Lista de Posts
 O projeto atual apresenta uma listagem de posts e também o uso de SPA.
 
-<img src="https://img.shields.io/static/v1?label=reactjs&message=framework&color=blue&style=for-the-badge&logo=REACTJS"/>
+<img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=REACT"/>
 <img src="https://img.shields.io/static/v1?label=Vercel&message=deploy&color=blue&style=for-the-badge&logo=VERCEL"/>
 
 ### Status do Projeto: ✔️ (concluido)
